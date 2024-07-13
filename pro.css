@@ -1,0 +1,77 @@
+
+
+#hr,
+#min,
+#sec {
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+
+#hr {
+  width: 1.8%;
+  height: 25%;
+  top: 25%;
+  left: 48.85%;
+  opacity: 0.8;
+}
+
+#min {
+  width: 1.6%;
+  height: 30%;
+  top: 19%;
+  left: 48.9%;
+  opacity: 0.8;
+}
+
+#sec {
+  width: 1%;
+  height: 40%;
+  top: 9%;
+  left: 49.25%;
+  opacity: 0.8;
+}
+body {
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #05bbf3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: chocolate;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #9ee797;
+  color: rgb(0, 0, 0);
+}
+
+.topnav a.active {
+  background-color: rgba(88, 111, 240, 0.856) 8fbd;
+  color: rgb(3, 3, 3);
+}
+.body-text{
+  background: rgb(135, 202, 233);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #0675f5;
+  font-size: 60px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+  display: flex;
+  justify-content: center; border-radius: 10%;
+  box-decoration-break: clone;
+  background-size: 40px;
+}
